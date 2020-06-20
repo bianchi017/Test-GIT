@@ -1,0 +1,107 @@
+html{
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    background-color: rgb(0, 81, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    margin: 0px;
+    background-color: mediumslateblue;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    background-color: mediumslateblue;
+    border-style: double;
+    border-color:rgb(94, 68, 241);
+    font-style: initial;
+    color:black;
+}
+
+select{
+    background-color: mediumslateblue;
+    border-style: double;
+    border-color:rgb(94, 68, 241);
+    font-style: initial;
+    color:black;
+}
+
+footer{
+    font-weight:bold;
+    color: black;
+    font-style: oblique;
+    font-size: 14px;
+}
+
+.welcome-title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-style: inherit;
+}
+
+.nav-item{
+    margin: 5px;
+    font-weight:bold;
+    color: black;
+    font-size: 16px;
+}
+
+.header-title{
+    margin-left: 10px;
+    font-size: 33px;
+    font-weight:bold;
+    font-variant: small-caps;
+}
+
+.header-title::before {
+    content: url("logoRooftop.png");
+    margin-right: 5px;
+}
+
+.row-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.column-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-labels{
+    margin: 5px;  
+}
+
+.buttons{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+.ok-button{
+background-color: green;
+font-weight: 500;
+border: 0px;
+color: white;
+font-size:15px;
+height: 25px;
+}
+
+.cancel-button{
+    background-color:red;
+    font-weight: 500;
+    border: 0px;
+    color: white;
+    font-size:15px;
+    height: 25px;
+}
