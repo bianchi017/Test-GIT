@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Registrarse</title>
+</head>
+<header>
+    <h1>Rooftop Academy</h1>
+    <a href="inicio.html">Inicio</a>
+    <a href="login.html">Iniciar sesión</a>
+    <a href="registro.html">Registrarse</a>
+</header>
+
+<body>
+    <form method="POST" action=https://www.google.com.ar>
+        <div>
+            <label>
+                Nombre completo
+                <input type="text" name="nombre" placeholder="Escribe aqui tu nombre completo" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                Apellido
+                <input type="text" name="apellido" placeholder="Escribe aqui tu apellido" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                Email
+                <input type="email" name="email" placeholder="Escribe aqui tu correo" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                Contraseña
+                <input type="password" name="password" placeholder="Escribe aqui tu contraseña" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                Provincia
+                <select required>
+                    <option value="">Elige una opción</option>
+                    <option value="Córdoba"> Córdoba </option>
+                    <option value="SantaFe"> Santa Fe </option>
+                    <option value="BuenosAires"> Buenos Aires </option>
+                    <option value="Mendoza"> Mendoza </option>
+                    <option value="Jujuy"> Jujuy </option>
+                    <option value="LaRioja"> La Rioja </option>
+                    <option value="SanJuan"> San Juan </option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>
+                Sexo:
+                <input type="radio" name="hm" value="hombre"required> Hombre
+                <input type="radio" name="hm" value="mujer"required> Mujer 
+            </label>
+        </div>
+        <div>
+            <label>
+                Desea recibir spam
+                <input type="checkbox" value="false">
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="Confirmar registro">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>

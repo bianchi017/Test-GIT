@@ -1,2 +1,2 @@
-# Test-GIT
+# Test
 https://rogerdudler.github.io/git-guide/index.es.html
