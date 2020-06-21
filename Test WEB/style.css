@@ -1,0 +1,144 @@
+html{
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    background-color: rgb(77, 115, 218);
+    margin-top: auto;
+}
+
+body{
+    margin: 5px;
+    background-color: rgba(128, 128, 136, 0.815);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    background-color: rgba(128, 128, 136, 0.815);
+    border-style: double;
+    border-color: rgba(128, 128, 136, 0.815);
+    font-style: initial;
+    color:black;
+}
+
+select{
+    background-color: rgba(128, 128, 136, 0.815);
+    border-style: double;
+    border-color: rgba(128, 128, 136, 0.815);
+    font-style: initial;
+    color:black;
+}
+
+footer{
+    font-weight:bold;
+    color: black;
+    font-style: oblique;
+    font-size: 14px;
+}
+
+.welcome-title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-style: inherit;
+}
+.titulo-formulario{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.parrafo-contacto{
+    display: flex;
+    justify-content: center; 
+}
+
+.item-derecha{
+    margin: 5px;
+    font-weight:bold;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: right;
+    margin-top: 0px;
+}
+.login-boton{
+    margin-right: 10px;
+}
+
+.contacto-boton{
+    margin-left: 10px;
+}
+
+.header-title{
+    margin-left: 10px;
+    font-size: 33px;
+    font-weight:bold;
+    font-variant: small-caps;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    margin-top: 5px;  
+}
+
+.item-izquierda{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+    position: fixed;
+    margin-left: 5px;
+    color: black;
+    font-weight:bold;
+}
+
+.header-title::before {
+    content: url("logoRooftop.png");
+    margin-right: 5px;
+}
+
+.row-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.column-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-labels{
+    margin: 5px;  
+}
+
+.cursor-mano{
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+.ok-button{
+background-color: green;
+font-weight: 500;
+border: 0px;
+color: white;
+font-size:15px;
+height: 25px;
+cursor: pointer;
+}
+
+.cancel-button{
+    background-color:red;
+    font-weight: 500;
+    border: 0px;
+    color: white;
+    font-size:15px;
+    height: 25px;
+    cursor: pointer;
+}

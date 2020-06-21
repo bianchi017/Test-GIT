@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Registrarse</title>
+    <link href="style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<header>
+    <h1 class="header-title">Rooftop Academy</h1>
+    <div class="item-izquierda">
+        <a  href="inicio.html">Inicio</a>
+        <a  class="contacto-boton" href="contacto.html">Contacto</a>
+    </div>
+    <div class="item-derecha">
+        <a class="login-boton" href="login.html">Iniciar sesión</a>
+        <a  href="registro.html">Registrarse</a>
+    </div>
+</header>
+
+<body>
+    <h3 class="titulo-formulario">
+        Registrarse
+    </h3>
+    <form class="row-container" method="POST" action=https://www.google.com.ar>
+        <div class="column-container">
+            <label class="form-labels">
+                Nombre:
+                <input type="text" name="nombre" placeholder="Escribe aqui tu nombre" required>
+            </label>
+            <label class="form-labels">
+                Apellido:
+                <input type="text" name="apellido" placeholder="Escribe aqui tu apellido" required>
+            </label>
+            <label class="form-labels">
+                Email:
+                <input type="email" name="email" placeholder="Escribe aqui tu correo" required>
+            </label>
+            <label class="form-labels">
+                Contraseña:
+                <input type="password" name="password" placeholder="Escribe aqui tu contraseña" required>
+            </label>
+            <label class="form-labels">
+                Provincia:
+                <select class="cursor-mano" required>
+                    <option value="">Elige una opción</option>
+                    <option value="Córdoba"> Córdoba </option>
+                    <option value="SantaFe"> Santa Fe </option>
+                    <option value="BuenosAires"> Buenos Aires </option>
+                    <option value="Mendoza"> Mendoza </option>
+                    <option value="Jujuy"> Jujuy </option>
+                    <option value="LaRioja"> La Rioja </option>
+                    <option value="SanJuan"> San Juan </option>
+                </select>
+            </label>
+            <label class="form-labels">
+                Sexo:
+                <input  class="cursor-mano" type="radio" name="hm" value="hombre" required> Hombre
+                <input class="cursor-mano" type="radio" name="hm" value="mujer" required> Mujer
+            </label>
+            <label class="form-labels">
+                Desea recibir spam:
+                <input class="cursor-mano" type="checkbox" value="false">
+            </label>
+            <div class="buttons">
+                <input class="cancel-button" type="reset" value="Cancelar" title="Cancelar registro">
+                <input class="ok-button" type="submit" value="Confirmar" title="Confirmar registro">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

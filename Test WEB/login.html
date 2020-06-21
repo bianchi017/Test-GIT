@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Iniciar sesión</title>
+    <link href="style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<header>
+    <h1 class="header-title">Rooftop Academy</h1>
+    <div class="item-izquierda">
+        <a  href="inicio.html">Inicio</a>
+        <a  class="contacto-boton" href="contacto.html">Contacto</a>
+    </div>
+    <div class="item-derecha">
+        <a class="login-boton" href="login.html">Iniciar sesión</a>
+        <a  href="registro.html">Registrarse</a>
+    </div>
+</header>
+
+<body>
+    <h3 class="titulo-formulario">
+        Iniciar sesión
+    </h3>
+    <form class="row-container" method="POST" action="https://www.google.com.ar">
+        <div class="column-container">
+            <label class="form-labels">
+                Usuario:
+                <input name="username" type="text" placeholder="Escriba aqui su nombre de usuario" required>
+            </label>
+            <label class="form-labels">
+                Contraseña:
+                <input name="password" type="password" placeholder="Escriba aqui su contraseña" required>
+            </label>
+            <div class="buttons">
+                <input class="cancel-button" type="reset" value="Cancelar" title="Cancelar inicio">
+                <input class="ok-button" type="submit" value="Iniciar sesión" title="Confirmar inicio">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
