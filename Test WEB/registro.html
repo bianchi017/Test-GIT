@@ -23,46 +23,60 @@
     <h3 class="titulo-formulario">
         Registrarse
     </h3>
-    <form class="row-container" method="POST" action=https://www.google.com.ar>
+    <form class="row-container" method="POST" action=https://onboarding-academy.herokuapp.com/form>
         <div class="column-container">
             <label class="form-labels">
                 Nombre:
-                <input type="text" name="nombre" placeholder="Escribe aqui tu nombre" required>
+                <input type="text" name="name" placeholder="Escribe aqui tu nombre"
+                 pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{3,20}" required>
             </label>
             <label class="form-labels">
                 Apellido:
-                <input type="text" name="apellido" placeholder="Escribe aqui tu apellido" required>
+                <input type="text" name="surname" placeholder="Escribe aqui tu apellido" 
+                pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{3,20}" required>
             </label>
-            <label class="form-labels">
+            <!-- <label class="form-labels">
                 Email:
                 <input type="email" name="email" placeholder="Escribe aqui tu correo" required>
-            </label>
+            </label> -->
+
             <label class="form-labels">
-                Contraseña:
-                <input type="password" name="password" placeholder="Escribe aqui tu contraseña" required>
+                Cumpleaños:
+                <input type="date" name="birthday" placeholder="Escribe aqui tu cumpleñaos" required>
             </label>
+            
+            <label class="form-labels">
+                DNI:
+                <input type="text" name="dni" placeholder="Escribe aqui tu DNI" 
+                pattern="[0-9]{7,9}" required>
+            </label>
+
             <label class="form-labels">
                 Provincia:
-                <select class="cursor-mano" required>
+                <select class="cursor-mano" name="state" required>
                     <option value="">Elige una opción</option>
-                    <option value="Córdoba"> Córdoba </option>
-                    <option value="SantaFe"> Santa Fe </option>
-                    <option value="BuenosAires"> Buenos Aires </option>
-                    <option value="Mendoza"> Mendoza </option>
-                    <option value="Jujuy"> Jujuy </option>
-                    <option value="LaRioja"> La Rioja </option>
-                    <option value="SanJuan"> San Juan </option>
+                    <option value="Cordoba"> Córdoba </option>
+                    <option value="Santa Fe"> Santa Fe </option>
+                    <option value="Buenos Aires"> Buenos Aires </option>
+                    <option value="Entre rios"> Entre Ríos </option>
                 </select>
             </label>
+
+            <label class="form-labels">
+                Contraseña:
+                <input type="password" name="password" placeholder="Escribe aqui tu contraseña" 
+                pattern="[A-Za-z0-9!?-]{3,25}" required>
+            </label>
+
             <label class="form-labels">
                 Sexo:
-                <input  class="cursor-mano" type="radio" name="hm" value="hombre" required> Hombre
-                <input class="cursor-mano" type="radio" name="hm" value="mujer" required> Mujer
+                <input  class="cursor-mano" type="radio" name="sex" value="men" required> Hombre
+                <input class="cursor-mano" type="radio" name="sex" value="women" required> Mujer
             </label>
-            <label class="form-labels">
+            <!-- <label class="form-labels">
                 Desea recibir spam:
                 <input class="cursor-mano" type="checkbox" value="false">
-            </label>
+            </label> --> 
             <div class="buttons">
                 <input class="cancel-button" type="reset" value="Cancelar" title="Cancelar registro">
                 <input class="ok-button" type="submit" value="Confirmar" title="Confirmar registro">
