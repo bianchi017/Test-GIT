@@ -33,6 +33,10 @@ select{
     color:black;
 }
 
+p{
+    text-align: justify;
+}
+
 footer{
     font-weight:bold;
     color: black;
@@ -46,11 +50,18 @@ footer{
     font-weight: bold;
     font-style: inherit;
 }
+
 .titulo-formulario{
     display: flex;
     justify-content: center;
     font-weight: bold;
+    margin-bottom: auto;
 }
+
+.logo-contacto{
+    margin-top: 20px;
+}
+
 .parrafo-contacto{
     display: flex;
     justify-content: center; 
@@ -65,11 +76,12 @@ footer{
     justify-content: right;
     margin-top: 0px;
 }
+
 .login-boton{
     margin-right: 10px;
 }
 
-.contacto-boton{
+.margen-boton{
     margin-left: 10px;
 }
 
@@ -87,7 +99,7 @@ footer{
     display: flex;
     justify-content: left;
     margin-bottom: 10px;
-    position: fixed;
+    position: absolute;
     margin-left: 5px;
     color: black;
     font-weight:bold;
