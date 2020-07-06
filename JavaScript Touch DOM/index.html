@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Tocando el DOM con JavaScript</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+    <!-- .container is main centered wrapper -->
+    <!-- .container is main centered wrapper -->
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns" style="text-align: center">
+                <h1>Registra libros en <strong>Tu Librería</strong></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="six columns">
+                <div class="row">
+                    <div class="five columns">
+                        <label>Título</label>
+                        <input class="u-full-width" placeholder="Ingresa título..." id="inputTitle" type="text"
+                            required>
+                    </div>
+                    <div class="five columns">
+                        <label>Autor</label>
+                        <input class="u-full-width" placeholder="Ingresa autor..." id="inputAuthor" type="text"
+                            required>
+                    </div>
+                    <div class="two columns">
+                        <label>Leído</label><input class="u-full-width" id="inputRead" type="checkbox" checked>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="five columns">
+                        <button class="button-primary u-full-width" id="buttonCancel">Cancelar</button>
+                    </div>
+                    <div class="five columns">
+                        <button class="button-primary u-full-width" id="buttonAddBook">Añadir Libro</button>
+                    </div>
+                </div>
+            </div>
+            <div class="six columns">
+                <table class="u-full-width" id="tableBooks">
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Autor</th>
+                            <th>¿Leído?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
