@@ -27,6 +27,8 @@ https://github.com/cssanimation/css-animation-101?ref=lapabooks
 
 http://desarrolloweb.dlsi.ua.es/libros/html-css/ejercicios
 #### JavaScript
+https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes
+
 https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures
 
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/typeof
