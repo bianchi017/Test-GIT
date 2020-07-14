@@ -46,3 +46,13 @@ http://www.forosdelweb.com/f13/validar-solo-letras-formulario-704488/
 https://uniwebsidad.com/libros/javascript/capitulo-7/validacion
 
 https://tutobasico.com/actualizar-javascript/
+#### React JS
+https://es.reactjs.org/
+
+https://madewithreactjs.com
+
+https://computingforgeeks.com/how-to-install-nodejs-on-ubuntu-debian-linux-mint/
+
+https://github.com/nodesource/distributions/blob/master/README.md#debinstall
+
+https://github.com/facebook/create-react-app
