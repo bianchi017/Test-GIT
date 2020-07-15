@@ -29,6 +29,8 @@ http://desarrolloweb.dlsi.ua.es/libros/html-css/ejercicios
 #### JavaScript
 https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes
 
+https://github.com/danielmoralesp/javascript-avanzado-en-espanol
+
 https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures
 
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/typeof
@@ -56,3 +58,7 @@ https://computingforgeeks.com/how-to-install-nodejs-on-ubuntu-debian-linux-mint/
 https://github.com/nodesource/distributions/blob/master/README.md#debinstall
 
 https://github.com/facebook/create-react-app
+
+https://es.reactjs.org/docs/refs-and-the-dom.html
+
+https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
