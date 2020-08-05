@@ -66,3 +66,11 @@ https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/filter
 
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date/now
+
+https://reactrouter.com/
+
+https://reactrouter.com/web/guides/quick-start
+
+https://redux.js.org/introduction/core-concepts
+
+https://redux.js.org/introduction/getting-started
