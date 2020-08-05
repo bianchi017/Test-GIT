@@ -74,3 +74,5 @@ https://reactrouter.com/web/guides/quick-start
 https://redux.js.org/introduction/core-concepts
 
 https://redux.js.org/introduction/getting-started
+
+https://redux.js.org/img/tutorials/essentials/ReduxDataFlowDiagram.gif
