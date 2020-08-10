@@ -78,3 +78,9 @@ https://redux.js.org/introduction/core-concepts
 https://redux.js.org/introduction/getting-started
 
 https://redux.js.org/img/tutorials/essentials/ReduxDataFlowDiagram.gif
+
+https://redux-saga.js.org/docs/api/
+
+https://redux-saga.js.org/
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/function*
