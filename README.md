@@ -73,6 +73,8 @@ https://reactrouter.com/
 
 https://reactrouter.com/web/guides/quick-start
 
+https://www.npmjs.com/package/axios
+
 https://redux.js.org/introduction/core-concepts
 
 https://redux.js.org/introduction/getting-started
