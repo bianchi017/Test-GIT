@@ -86,7 +86,7 @@ https://redux-saga.js.org/docs/api/
 https://redux-saga.js.org/
 
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/function*
-#### My SQL Databases
+#### MySQL Databases
 https://dev.mysql.com
 
 https://www3.ntu.edu.sg/home/ehchua/programming/sql/SampleDatabases.html
