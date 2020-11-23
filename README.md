@@ -2,7 +2,7 @@
 https://rogerdudler.github.io/git-guide/index.es.html
 #### Visual Studio Code
 https://www.it-swarm.dev/es/code-formatting/como-formateas-el-codigo-en-visual-studio-code-vscode/1052118913/
-#### Html, css & Bootstrap
+#### HTML, CSS & Bootstrap
 http://getskeleton.com/
 
 https://getbootstrap.com/
