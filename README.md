@@ -2,8 +2,12 @@
 https://rogerdudler.github.io/git-guide/index.es.html
 #### Visual Studio Code
 https://www.it-swarm.dev/es/code-formatting/como-formateas-el-codigo-en-visual-studio-code-vscode/1052118913/
-#### Web
+#### Html, css & Bootstrap
 http://getskeleton.com/
+
+https://getbootstrap.com/
+
+https://www.w3schools.com/bootstrap/bootstrap_ver.asp
 
 https://material-ui.com/es/components/grid/
 
@@ -48,7 +52,7 @@ http://www.forosdelweb.com/f13/validar-solo-letras-formulario-704488/
 https://uniwebsidad.com/libros/javascript/capitulo-7/validacion
 
 https://tutobasico.com/actualizar-javascript/
-#### React JS
+#### ReactJs
 https://es.reactjs.org/
 
 https://www.npmjs.com/
