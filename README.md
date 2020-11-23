@@ -52,7 +52,7 @@ http://www.forosdelweb.com/f13/validar-solo-letras-formulario-704488/
 https://uniwebsidad.com/libros/javascript/capitulo-7/validacion
 
 https://tutobasico.com/actualizar-javascript/
-#### ReactJs
+#### React JS
 https://es.reactjs.org/
 
 https://www.npmjs.com/
