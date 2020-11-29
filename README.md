@@ -11,6 +11,10 @@ https://www.w3schools.com/bootstrap/bootstrap_ver.asp
 
 https://material-ui.com/es/components/grid/
 
+https://www.color-hex.com/
+
+https://flatuicolors.com/
+
 https://developer.mozilla.org/es/docs/Web/HTTP
 
 https://developer.mozilla.org/es/docs/Web/HTML
