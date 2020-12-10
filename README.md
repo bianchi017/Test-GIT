@@ -15,6 +15,8 @@ https://www.color-hex.com/
 
 https://flatuicolors.com/
 
+https://fontawesome.com/v4.7.0/icons/
+
 https://developer.mozilla.org/es/docs/Web/HTTP
 
 https://developer.mozilla.org/es/docs/Web/HTML
